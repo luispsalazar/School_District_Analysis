@@ -1,9 +1,19 @@
 # School District Analysis - Module 4 Challenge
 
+## Background
 
+The school board suspects academic dishonesty; specifically, reading and math grades for Thomas High School ninth graders appear to have been altered.
 
+The school board does not know the full extent of this situation, but they want to investigate and analyze it, by replacing the "math and reading scores" for Thomas High School with NaNs, while keeping the rest of the data intact.
 
+Once the math and reading scores are replaced, a comparison will be made with the initial data to see if these changes affected the overall analysis.
 
+To accomplish this, Python/Jupyter Notebook will be used to:
+*   capture the raw data - read.csv
+*   replace the scores with NaN values - loc.
+*   filter the data for each grade - loc.
+*   determine indicators for analysis - count, mean, sum
+*   format results - map, bins, groupby
 
 ## Deliverable 1
 
